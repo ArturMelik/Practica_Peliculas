@@ -1,0 +1,184 @@
+
+header {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+section h2 {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  height: 70px;
+  margin-top: 0px;
+  padding-top: 20px;
+  background: linear-gradient(90deg, #e50914, #000000);
+  
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 9px;
+  background: linear-gradient(90deg, #e50914, #000000);
+  color: white;
+  padding: 20px;
+
+
+  
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+
+/*Imagen solo*/
+td img {
+  width: 150px; 
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.7s ease, box-shadow 0.9s ease; 
+}
+/* Rotecion chula img table*/
+td img:hover {
+  transform: scale(1.15) rotate(20deg); 
+  box-shadow: 0 10px 10px 15px rgba(0,0,0,0.4); 
+  
+}
+
+
+/* ---------- BOTONES DE ACCIÓN ---------- */
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.edit-button {
+  background-color: #008CBA;
+  color: white;
+}
+
+/* ---------- SECCIÓN AÑADIR PELÍCULA ---------- */
+#add-peliculas {
+  position: relative;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  padding: 0;
+  overflow: hidden;
+}
+
+/*Imagen del fondo*/
+#add-peliculas .bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: brightness(50%) blur(2px);
+ 
+}
+
+/*Formulario encima (efecto glass)*/
+#peliculas-form {
+  position: relative;
+  max-width: 520px;
+  width: auto;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px); /*efecto critsal buenisimo */
+  border-radius: 16px;
+  padding: 50px;
+  color: #fff;
+  box-shadow: 9px 20px 20px rgba(228, 8, 8, 0.3); 
+  margin: 20px 20px 20px -150px 
+}
+
+/* Etiquetas e inputs */
+#peliculas-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#peliculas-form input,
+#peliculas-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(255,255,255,0.2);
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+}
+
+/* Botón principal del formulario */
+#peliculas-form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff6b6b, #ffd36b);
+  color: #222;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#peliculas-form button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+select {
+  align-items: center;
+  width: 500px;
+  padding: 12px;
+  line-height: 24px;
+  border: solid 1px #999;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  margin-left: 510px;
+  margin-right: 510px;
+}
+
+#filtroTitulo{
+  border: solid 2px #999;
+  border-radius: 12px;
+  margin-left: 610px;
+  margin-right: 610px;
+  width: 300px;
+  margin-bottom: 10px;
+  
+  
+ }
+
+ section{
+background: linear-gradient(90deg, #e50914, #000000);
+ }
+ 

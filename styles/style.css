@@ -81,6 +81,11 @@ button {
 }
 
 /* ---------- SECCIÓN AÑADIR PELÍCULA ---------- */
+#filtered-peliculas{
+  width: 100%;
+}
+
+
 #add-peliculas {
   position: relative;
   min-height: 90vh;
@@ -108,7 +113,7 @@ button {
   max-width: 520px;
   width: auto;
   background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(5px); /*efecto critsal buenisimo */
+  backdrop-filter: blur(5px); /*efecto critsal buenisimo ************/
   border-radius: 16px;
   padding: 50px;
   color: #fff;
@@ -156,27 +161,14 @@ button {
 }
 
 select {
-  align-items: center;
-  width: 500px;
-  padding: 12px;
-  line-height: 24px;
-  border: solid 1px #999;
-  border-radius: 12px;
-  margin-bottom: 30px;
-  margin-left: 510px;
-  margin-right: 510px;
+  width: 30%;
+ margin-bottom: 50px;
 }
 
-#filtroTitulo{
-  border: solid 2px #999;
-  border-radius: 12px;
-  margin-left: 610px;
-  margin-right: 610px;
-  width: 300px;
-  margin-bottom: 10px;
-  
-  
- }
+#filtroTitulo {
+  width: 30%;       /* Ocupa todo el contenedor */
+  margin: 10px 0;    /* Separación vertical */
+}
 
  section{
 background: linear-gradient(90deg, #e50914, #000000);
